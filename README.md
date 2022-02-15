@@ -2,7 +2,7 @@
 Explore Github repositories.
 
 ## Built with:
-- ReactJS
+- React
 - TypeScript
 - React-router-dom
 - Styled-components
