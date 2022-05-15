@@ -1,15 +1,15 @@
 # Github Explorer
 Explore Github repositories.
 
-## Built with:
+## Built with
 - React
 - TypeScript
 - React-router-dom
 - Styled-components
 
-## Dashboard:
+## Dashboard
 ![myimage-alt-tag](images/dashboard.png)
-## Repository:
+## Repository
 ![myimage-alt-tag](images/repository.png)
 
 
