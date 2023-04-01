@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Header = styled.header`
   display: flex;
@@ -13,14 +13,14 @@ export const Header = styled.header`
     transition: color 0.2s;
 
     &:hover {
-      color: #666
+      color: #666;
     }
 
     svg {
       margin-right: 4px;
     }
   }
-`
+`;
 export const RepositoryInfo = styled.section`
   margin-top: 80px;
 
@@ -50,7 +50,6 @@ export const RepositoryInfo = styled.section`
     }
   }
 
-
   ul {
     display: flex;
     list-style: none;
@@ -63,7 +62,7 @@ export const RepositoryInfo = styled.section`
       strong {
         display: block;
         font-size: 36px;
-        color: #3d3d4d
+        color: #3d3d4d;
       }
 
       span {
@@ -73,7 +72,7 @@ export const RepositoryInfo = styled.section`
       }
     }
   }
-`
+`;
 export const Issues = styled.div`
   margin-top: 80px;
 
@@ -103,12 +102,12 @@ export const Issues = styled.div`
 
       strong {
         font-size: 28px;
-        color: #3D3D4D;
+        color: #3d3d4d;
       }
 
       p {
         font-size: 18px;
-        color: #A8A8B3;
+        color: #a8a8b3;
         margin-top: 4px;
       }
     }
@@ -118,5 +117,4 @@ export const Issues = styled.div`
       color: #cbcbd6;
     }
   }
-`
-
+`;

@@ -1,16 +1,23 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom'
-import GlobalStyle from './styles/global'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Routes from './routes'
+import DashBoard from './pages/DashBoard';
+import Repository from './pages/Repository';
 
-const App: React.FC = () => (
-  <>
-    <BrowserRouter>
-      <Routes />
-    </BrowserRouter>
-    <GlobalStyle />
-  </>
-)
+import GlobalStyle from './styles/global';
+
+function App(): JSX.Element {
+  return (
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<DashBoard />} />
+          <Route path="/repository" element={<Repository />} />
+        </Routes>
+      </BrowserRouter>
+      <GlobalStyle />
+    </>
+  );
+}
 
 export default App;
